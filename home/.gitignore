@@ -1,6 +1,9 @@
 
-# Created by https://www.gitignore.io/api/windows,visualstudio,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=windows,visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/windows,visualstudio,visualstudiocode,nohup
+# Edit at https://www.gitignore.io/?templates=windows,visualstudio,visualstudiocode,nohup
+
+### Nohup ###
+nohup.out
 
 ### VisualStudioCode ###
 .vscode/*

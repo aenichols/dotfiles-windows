@@ -48,7 +48,6 @@
 [core]
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore
-    attributesfile = ~/.gitattributes
     # Treat spaces before tabs, lines that are indented with 8 or more spaces, and
     # all kinds of trailing whitespace as an error.
     # [default] trailing-space: looks for spaces at the end of a line
@@ -59,6 +58,7 @@
     # Speed up commands involving untracked files such as `git status`.
     # https://git-scm.com/docs/git-update-index#_untracked_cache
     untrackedCache = true
+    autocrlf = true
 
 [color]
     # Use colors in Git commands that are capable of colored output when
@@ -99,5 +99,9 @@
 [push]
     default = simple
 
+[user]
+	name = Anthony Nichols
+	email = anthony.nichols@bngholdingsinc.com
+
 [credential]
-    helper = manager
+    helper = manager #wincred
