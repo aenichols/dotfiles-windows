@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-$HOME/AppData/Local/Programs/Opera/opera.exe &
-#$HOME/AppData/Local/Microsoft/Teams/Update.exe --processStart "Teams.exe" &
-"/C/Program Files/Microsoft Office/root/Office16/Outlook.exe" &
-nohup $HOME/AppData/Local/Obsidian/Obsidian.exe &
