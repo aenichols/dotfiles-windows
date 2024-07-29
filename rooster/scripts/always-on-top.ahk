@@ -1,4 +1,3 @@
 ^SPACE:: {
 	WinSetAlwaysOnTop -1, "A"
-	Send "Some text.{Enter}"
 }
